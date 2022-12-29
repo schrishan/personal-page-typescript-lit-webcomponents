@@ -38,6 +38,7 @@ export const styles = [
 }
 .tst-itm .person-name{
   color:#2196F3;
+  font-weight:bold;
 }
 .tst-comment {
     text-align: left;
