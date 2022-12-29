@@ -6,10 +6,11 @@ export const styles = [
       min-height: 100vh;
       margin: 0 0 50px;
       position: relative;
+      padding: 35px 0 0;
     }
       .page-container.noBackgroundVideo{
         background-color:#151515;
-        padding: 0 0 50px;
+        padding: 35px 0 50px;
         margin: 0;
       }
 

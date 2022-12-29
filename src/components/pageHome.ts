@@ -11,7 +11,7 @@ export class PageHome extends LitElement {
   render() {
     return html`
         <page-container pageName="home" noBackgroundVideo="{true}">
-        <page-title>Home</page-title>
+        <!-- <page-title>Wellcome</page-title> -->
         <div class="my-intro">
           <h1 class="intro-title">
             Hi, I’m <span class="my-name">< Sadith /></span>
@@ -39,7 +39,7 @@ export class PageHome extends LitElement {
             UI Specialist
             </div>
           </div>
-          <div class="my-memo">
+          <div class="my-memo para">
             “ Productivity is never an accident. It is always a result of a
             commitment to excellence, intelligent planning and focused effort. “
           </div>

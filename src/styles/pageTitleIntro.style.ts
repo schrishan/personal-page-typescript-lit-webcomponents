@@ -11,6 +11,7 @@ export const styles = [
         margin: 0 auto 0;
         font-size: 25px;
         padding:40px 0 0 0;
+        font-weight:500;
     }
 
     @media screen and (min-width: 768px) {
@@ -26,7 +27,7 @@ export const styles = [
     }
     @media screen and (min-width: 1159px) {
 .title-intro {
-    width: 100%;
+    width: calc(100% - 75px);
     display: inline-block;
 }
 }

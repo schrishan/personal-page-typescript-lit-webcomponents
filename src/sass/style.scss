@@ -13,14 +13,13 @@ body {
   font-family: $quicksand;
   font-size: 16px;
 }
-h {
-  font-family: $raleway;
-}
+
 .preloader-disabled {
   page-loader {
     display: none;
   }
 }
+
 img {
   width: 100%;
   height: auto;
@@ -54,6 +53,22 @@ img {
   }
 }
 #home {
-  z-index: 20;
   position: relative;
 }
+#logo{
+  opacity: 0;
+}
+h3{
+  margin: 0;
+}
+.para {
+  background: radial-gradient(200px at 50% 50%, rgba(0, 255, 255, 0.7), #0072CE, #1f1f1f);
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  cursor: default;
+  font-size: 1.6rem;
+  line-height: 1.47em;
+}
+

@@ -67,7 +67,15 @@ export const styles = [
       height: 100%;
       margin: 0px 0px 0px -75%;
     }
-
+    .para {
+      background: radial-gradient(1000px at 50% 50%, rgba(0, 255, 255, 0.7), #0072CE, #1f1f1f);
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent;
+      cursor: default;
+      line-height: 1.47em;
+    }
     @media screen and (min-width: 768px) {
       .img-wrp img {
         margin: 0;

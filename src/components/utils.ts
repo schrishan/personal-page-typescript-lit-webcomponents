@@ -7,7 +7,12 @@ export const audioOnClick = () => {
 
 export const scrollTo = (id: any) => {
   const el = document.getElementById(id);
-  el?.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+  el?.scrollIntoView({ behavior: "smooth"});
+};
+
+export  const  para = (id:any) => {
+  const el = document.getElementById(id);
+  el?.setAttribute("style", "opacity:0;");
 };
 
 export const scrollToTop = () => {

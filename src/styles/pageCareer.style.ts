@@ -2,12 +2,62 @@ import { css } from "lit";
 
 export const styles = [
   css`
-    .about-me-content {
+    .career-content {
       position: relative;
       z-index: 8;
       color: #fff;
       width: 90%;
       margin: 25px auto 0;
+    }
+    .exp-itm {
+      border-left: 1px solid #fff;
+      box-sizing: border-box;
+      padding: 0 0 0 25px;
+      position: relative;
+    }
+    .exp-itm-wrp {
+      padding: 0 0 35px 0;
+    }
+    .exp-itm-wrp:last-child {
+      padding: 0;
+    }
+    .exp-itm-date-location {
+      font-style: italic;
+      margin: 15px 0 0;
+    display: block;
+    font-size:14px;
+    }
+    .exp-itm p{
+      margin: 15px 0px 0px;
+    }
+    .exp-itm-title{
+      margin:0;
+    }
+
+    .exp-itm:after {
+      content: "";
+      width: 10px;
+      height: 1px;
+      background: #fff;
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+    }
+    .exp-itm:before {
+      content: "";
+      width: 10px;
+      border-radius: 50%;
+      height: 10px;
+      background: rgb(255, 255, 255);
+      display: block;
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      left: 8px;
+      margin: auto;
     }
     .para {
       background: radial-gradient(1000px at 50% 50%, rgba(0, 255, 255, 0.7), #0072CE, #1f1f1f);
@@ -22,7 +72,7 @@ export const styles = [
       .content-wrp {
         padding: 60px 0 0 0;
       }
-      .about-me-content {
+      .career-content {
         width: calc(100% - 75px);
         margin: 25px auto 0px 75px;
         font-size: 20px;
@@ -36,7 +86,7 @@ export const styles = [
         display: flex;
         align-items: center;
       }
-      .about-me-content {
+      .career-content {
         width: 100%;
         margin: 25px auto 0px 75px;
         font-size: 20px;

@@ -85,13 +85,11 @@ export const styles = [
       transition: all 0.5s ease-in-out;
     }
     .nav-itm-list .nav-overlay {
-      width: 575px;
-      height: 575px;
+      left: 575px;
+      top: 575px;
       background-color: #2196f3;
       border-radius: 50%;
-      left: 55px;
       position: fixed;
-      top: 0;
       z-index: 1;
       opacity: 0;
       background-color: rgba(135, 202, 255, 0.35);
@@ -106,6 +104,8 @@ export const styles = [
     }
     .menu-list-active.nav-itm-list .nav-overlay {
       opacity: 1;
+      width: 575px;
+      height: 575px;
       left: -160px;
       top: -70px;
       z-index: -1;
@@ -157,7 +157,6 @@ export const styles = [
     .nav-itm.active img{
       filter: invert(95%) sepia(5%) saturate(170%) hue-rotate(314deg) brightness(97%) contrast(91%);
     }
-
     @keyframes rightToLeft {
       0% {
         transform: translateX(10px);
